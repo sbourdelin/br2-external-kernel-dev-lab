@@ -14,7 +14,7 @@ $ git clone https://github.com/sbourdelin/br2-external-kernel-dev-lab.git
 
 Go to your main *Buildroot* folder, and add the root folder of this external repository:
 ```sh
-$ make BR2_EXTERNAL=<path>/br-external-kernel-dev-lab
+$ make BR2_EXTERNAL=<path>/br2-external-kernel-dev-lab
 ```
 
 You can now use the new board *qemu_x86_64_debug_defconfig*, which will create a qemu ready image with debug symbols and facilities for debugging:
