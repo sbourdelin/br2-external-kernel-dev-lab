@@ -4,6 +4,8 @@
 
 This repository is just a minimal *Buildroot* out-of-tree solution to setup a kernel dev lab using Qemu.
 
+![](doc/break-printk.png)
+
 ### How to use:
 Clone this repository:
 ```sh
