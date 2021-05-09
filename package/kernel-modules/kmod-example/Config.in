@@ -1,0 +1,5 @@
+config BR2_PACKAGE_KMOD_EXAMPLE
+	bool "kmod-example"
+	depends on BR2_LINUX_KERNEL
+	help
+		Example kernel module
